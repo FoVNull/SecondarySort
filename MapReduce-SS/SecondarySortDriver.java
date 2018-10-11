@@ -22,8 +22,8 @@ public class SecondarySortDriver extends Configured implements Tool {
 
 //        Path inputPath=new Path("/secondary_sort/input/Ssort_input.txt");
 //        Path outputPath=new Path("/secondary_sort/output");
-        Path inputPath=new Path("E:/DateA/Ssort_input.txt");
-        Path outputPath=new Path("E:/DateA/output/");
+        Path inputPath=new Path("HDFS 或者直接写本地的地址");
+        Path outputPath=new Path("HDFS 或者直接写本地的地址");
         FileInputFormat.addInputPath(job, inputPath);
         FileOutputFormat.setOutputPath(job, outputPath);
 
